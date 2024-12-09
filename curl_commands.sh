@@ -1,0 +1,1 @@
+curl -X POST "http://127.0.0.1:8000/queue/" -H "Content-Type: application/json" -d '{ "raw_text": "This is a test text for the queue", "user_id": 1 }'
